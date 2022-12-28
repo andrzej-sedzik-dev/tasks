@@ -1,5 +1,6 @@
 package com.crud.tasks.domain;
 
+import com.crud.tasks.controller.TaskNotFoundException;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -20,4 +21,5 @@ public class Task {
    private String title;
    @Column(name = "description")
    private String content;
+   
 }
