@@ -31,7 +31,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 
 	runtimeOnly 'mysql:mysql-connector-java'
-	runtimeOnly 'org.postgresql:postgresql:42.5.1'
+	//runtimeOnly 'org.postgresql:postgresql:42.5.1'
 
 
 	compileOnly 'org.projectlombok:lombok'
